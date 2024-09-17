@@ -8,11 +8,11 @@ Python has become a popular language for scientific computing, boasting a rich s
 
 ## Getting started
 
-We will use Google Colab to run this course. It is an interactive environment to create and run Python code.
+We will use Google Colab to run this course. It is an interactive environment to create and run Python code. Click the links below to launch the notebook:
 
-1. [PythonOverview](https://colab.research.google.com/github/brmather/Python_for_Geoscientists/blob/main/1_PythonOverview.ipynb)
-2. [ReconstructData](https://colab.research.google.com/github/brmather/Python_for_Geoscientists/blob/main/2_ReconstructData.ipynb)
-3. [MachineLearning](https://colab.research.google.com/github/brmather/Python_for_Geoscientists/blob/main/3_MachineLearning.ipynb)
+1. [PythonOverview :rocket:](https://colab.research.google.com/github/brmather/Python_for_Geoscientists/blob/main/1_PythonOverview.ipynb)
+2. [ReconstructData :rocket:](https://colab.research.google.com/github/brmather/Python_for_Geoscientists/blob/main/2_ReconstructData.ipynb)
+3. [MachineLearning :rocket:](https://colab.research.google.com/github/brmather/Python_for_Geoscientists/blob/main/3_MachineLearning.ipynb)
 
 Currently `pygplates` is not available to install on `pip`. So for notebooks running any GPlately or pygplates code, this cell will need to be run at the start of the notebook:
 
@@ -25,7 +25,7 @@ condacolab.install()
 then
 
 ```sh
-conda install gplately
+!mamba install gplately
 ```
 
 ## Installation
